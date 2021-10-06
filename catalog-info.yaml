@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstagetest
+  description: The place to be, for great artists testing backstage. Testing for DTC GRT
+  links:
+    - url: https://discoveryinc.atlassian.net/wiki/spaces/LM/pages/1874526981/Supported+Tools+and+Systems
+      title: Team page
+      icon: dashboard
+  annotations:
+    github.com/project-slug: JP-Besong/backstagetest
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: other
+  lifecycle: unknown
+  owner: team-a
